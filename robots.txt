@@ -1,0 +1,5 @@
+# robots.txt — Majestic Excalibur Oil & Gas Trading LLC
+User-agent: *
+Allow: /
+
+Sitemap: https://majesticexcalibur.com/sitemap.xml

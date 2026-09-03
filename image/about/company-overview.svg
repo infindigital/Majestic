@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Global energy trading network with storage terminals">
+  <defs>
+    <linearGradient id="abSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d2340"/>
+      <stop offset="1" stop-color="#081627"/>
+    </linearGradient>
+    <linearGradient id="abGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6c876"/>
+      <stop offset="1" stop-color="#b8891f"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="560" rx="18" fill="url(#abSky)"/>
+  <!-- globe -->
+  <g transform="translate(360 250)">
+    <circle r="150" fill="none" stroke="#1a4270" stroke-width="1.6"/>
+    <ellipse rx="150" ry="56" fill="none" stroke="#1a4270" stroke-width="1.2"/>
+    <ellipse rx="150" ry="110" fill="none" stroke="#1a4270" stroke-width="1.2"/>
+    <ellipse rx="56" ry="150" fill="none" stroke="#1a4270" stroke-width="1.2"/>
+    <ellipse rx="110" ry="150" fill="none" stroke="#1a4270" stroke-width="1.2"/>
+    <line x1="-150" y1="0" x2="150" y2="0" stroke="#1a4270" stroke-width="1.2"/>
+    <g fill="url(#abGold)">
+      <circle cx="-60" cy="-40" r="4"/>
+      <circle cx="70" cy="-10" r="4"/>
+      <circle cx="10" cy="60" r="4"/>
+      <circle cx="-90" cy="40" r="4"/>
+    </g>
+    <g fill="none" stroke="url(#abGold)" stroke-width="1.4" stroke-opacity="0.8">
+      <path d="M-60 -40 Q10 -80 70 -10"/>
+      <path d="M70 -10 Q60 40 10 60"/>
+      <path d="M10 60 Q-60 80 -90 40"/>
+    </g>
+  </g>
+  <!-- storage tanks -->
+  <g transform="translate(70 430)">
+    <g fill="#0a1c31" stroke="#1a4270" stroke-width="1.4">
+      <rect x="0" y="0" width="70" height="70" rx="6"/>
+      <rect x="90" y="-20" width="80" height="90" rx="6"/>
+      <rect x="200" y="10" width="60" height="60" rx="6"/>
+    </g>
+    <g stroke="#c9a227" stroke-width="1.2" opacity="0.7">
+      <line x1="0" y1="18" x2="70" y2="18"/>
+      <line x1="90" y1="4" x2="170" y2="4"/>
+      <line x1="200" y1="26" x2="260" y2="26"/>
+    </g>
+  </g>
+  <!-- tanker -->
+  <g transform="translate(470 452)" fill="#0a1c31" stroke="#1a4270" stroke-width="1.4">
+    <path d="M0 40 h180 l-18 26 h-150 z"/>
+    <rect x="120" y="8" width="34" height="32" rx="3"/>
+  </g>
+</svg>

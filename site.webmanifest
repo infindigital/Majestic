@@ -1,0 +1,17 @@
+{
+  "name": "Majestic Excalibur Oil & Gas Trading LLC",
+  "short_name": "Majestic Excalibur",
+  "description": "Global energy and commodity trading company.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1e34",
+  "theme_color": "#0b1e34",
+  "icons": [
+    {
+      "src": "image/logos/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

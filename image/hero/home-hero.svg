@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Energy trading and refinery skyline at dusk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1e34"/>
+      <stop offset="0.55" stop-color="#0d2340"/>
+      <stop offset="1" stop-color="#081627"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="42%" r="42%">
+      <stop offset="0" stop-color="#e6c876" stop-opacity="0.55"/>
+      <stop offset="0.4" stop-color="#c9a227" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#c9a227" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6c876"/>
+      <stop offset="1" stop-color="#b8891f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <rect width="1200" height="900" fill="url(#sun)"/>
+  <!-- trade arcs -->
+  <g fill="none" stroke="url(#gold)" stroke-opacity="0.35" stroke-width="1.5">
+    <path d="M-40 380 Q600 120 1240 360"/>
+    <path d="M-40 470 Q600 220 1240 460"/>
+    <path d="M-40 300 Q600 60 1240 280"/>
+  </g>
+  <g fill="#e6c876">
+    <circle cx="250" cy="243" r="3.2" opacity="0.8"/>
+    <circle cx="720" cy="150" r="3.2" opacity="0.8"/>
+    <circle cx="980" cy="322" r="3.2" opacity="0.8"/>
+  </g>
+  <!-- refinery silhouette -->
+  <g fill="#0a1c31">
+    <g>
+      <rect x="120" y="640" width="60" height="180"/>
+      <rect x="210" y="600" width="34" height="220"/>
+      <rect x="270" y="670" width="70" height="150"/>
+      <rect x="360" y="560" width="26" height="260"/>
+      <rect x="405" y="700" width="90" height="120"/>
+      <rect x="520" y="620" width="40" height="200"/>
+      <rect x="585" y="690" width="120" height="130"/>
+      <rect x="730" y="600" width="30" height="220"/>
+      <rect x="780" y="660" width="80" height="160"/>
+      <rect x="880" y="580" width="28" height="240"/>
+      <rect x="930" y="700" width="150" height="120"/>
+    </g>
+  </g>
+  <!-- towers with detail lines -->
+  <g stroke="#1a4270" stroke-width="2" opacity="0.7">
+    <line x1="223" y1="600" x2="223" y2="820"/>
+    <line x1="373" y1="560" x2="373" y2="820"/>
+    <line x1="540" y1="620" x2="540" y2="820"/>
+    <line x1="745" y1="600" x2="745" y2="820"/>
+    <line x1="894" y1="580" x2="894" y2="820"/>
+  </g>
+  <!-- flare -->
+  <path d="M373 560 q-6 -26 8 -40 q-2 20 12 24 q10 -14 4 -30 q22 20 8 46 z" fill="url(#gold)" opacity="0.85"/>
+  <rect x="0" y="818" width="1200" height="82" fill="#081627"/>
+</svg>
