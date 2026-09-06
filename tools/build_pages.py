@@ -173,8 +173,12 @@ STRENGTH = f"""<section class="section section--soft">
 WHY = f"""<section class="section">
   <div class="container why-grid">
     <div class="why-media">
-      <div class="why-badge"><span class="ic">&#127942;</span>Trusted<br>Global Trader</div>
+      <div class="why-badge">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#d5bc88" stroke-width="1.6" width="46" height="46" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4z"/><path d="M7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg></span>
+        Trusted<br>Global Trader
+      </div>
       <img src="assets/images/engineer.jpg" alt="Engineer at an energy facility">
+      <span class="why-plus" aria-hidden="true">+</span>
     </div>
     <div>
       <span class="pill">Why Choose Us?</span>
