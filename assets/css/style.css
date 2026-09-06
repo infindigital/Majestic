@@ -345,8 +345,16 @@ p { margin: 0 0 1rem; }
 .serv-btn:hover { color: var(--heading); }
 .serv-card__media { display: grid; gap: 14px; }
 .serv-card__media img { border-radius: 14px; height: 172px; width: 100%; object-fit: cover; }
-.check { display: inline-flex; align-items: center; gap: 9px; font-size: .95rem; font-weight: 600; color: #14170f; }
-.check::before { content: "✓"; color: #14170f; font-weight: 800; font-size: 1.05rem; }
+.check { display: inline-flex; align-items: center; gap: 12px; font-size: .95rem; font-weight: 600; color: #14170f; }
+.check::before {
+  content: "";
+  flex: none;
+  width: 8px; height: 15px;
+  border: solid #14170f;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  margin: -4px 0 0 2px;
+}
 
 .serv-card--last { grid-column: 1 / -1; max-width: calc(50% - 13px); }
 
