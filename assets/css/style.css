@@ -4,19 +4,22 @@
    ============================================================ */
 
 :root {
-  --cream: #f6eede;
-  --cream-2: #f9f3e7;
-  --gold: #c1953b;
-  --gold-2: #b3872f;
-  --gold-soft: #d7b160;
-  --brown: #6a561f;      /* dark gold card */
-  --brown-2: #574718;
-  --ink: #14170f;        /* near-black green used in dark sections/footer */
-  --ink-2: #1c2015;
+  /* Palette sampled from the live majesticexcalibur.com reference designs */
+  --cream: #f9f3e3;      /* hero / banner background */
+  --cream-2: #fbf6ea;
+  --gold: #c89840;       /* primary accent gold */
+  --gold-2: #b3842f;     /* gold hover */
+  --gold-soft: #d5bc88;  /* light gold text on dark */
+  --brown: #5e4a20;      /* dark gold card */
+  --brown-2: #4a3712;
+  --ink: #06140a;        /* near-black green used in dark sections/footer */
+  --ink-2: #0d1c10;
+  --heading: #0b1a0f;    /* near-black green headings */
   --text: #1b1b18;
   --muted: #5f5f58;
   --muted-2: #8a8a80;
   --line: #e7e0d0;
+  --soft: #f9f9f9;       /* light off-white section */
   --white: #ffffff;
   --radius: 18px;
   --radius-lg: 26px;
@@ -49,6 +52,7 @@ h1, h2, h3, h4 {
   line-height: 1.12;
   letter-spacing: -0.01em;
   font-weight: 700;
+  color: var(--heading);
 }
 
 h1 { font-size: clamp(2.1rem, 4.5vw, 3.4rem); }
@@ -67,7 +71,7 @@ p { margin: 0 0 1rem; }
 .section { padding: clamp(56px, 8vw, 110px) 0; }
 .section--tight { padding: clamp(40px, 6vw, 72px) 0; }
 .section--cream { background: var(--cream); }
-.section--soft { background: #faf8f3; }
+.section--soft { background: var(--soft); }
 .section--ink { background: var(--ink); color: #f3efe4; }
 
 .muted { color: var(--muted); }
