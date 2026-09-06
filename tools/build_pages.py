@@ -253,7 +253,7 @@ def page_home():
           <div class="eyebrow">{eb}</div>
           <h3>{title}</h3>
           <p>{desc}</p>
-          <a class="btn btn--dark" href="{url}">View Details</a>
+          <a class="btn btn--gold serv-btn" href="{url}">View Details</a>
         </div>
         <div class="serv-card__media">
           <img src="assets/images/{img}" alt="{title}">
